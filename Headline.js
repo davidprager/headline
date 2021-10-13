@@ -27,7 +27,7 @@ const MESSAGE = "Coding with Javascript is cool";
 function Headline() {
    let gw = GWindow(GWINDOW_WIDTH, GWINDOW_HEIGHT);
    let timer = undefined;
-
+   // todo : Call the input validation function
    // todo : Set up GLabel object with an upper case version of the message, the specified font and font size
    // todo : Add the GLabel object to the right of the Graphics window approximately centered vertically
    // todo : Add an event listener to detect a mouse click
@@ -35,7 +35,7 @@ function Headline() {
 /* This function is called each time the interval timer ticks to update the animation */
    function timerTicked() {
       // todo : move the message
-      // todo : check if it has scrolled off the window, in which case reset its position
+      // todo : check if the message has scrolled off the window, in which case reset its position
    }
 
 /*
@@ -46,4 +46,12 @@ function Headline() {
       // todo : if the timer is stopped, then change the font color and start the timer
       // todo : if the timer is started, stop it.
    }
+   
+   /*
+   /* This function checks that the message to be displayed is betwen 20 and 30 characters long
+   /* If not, it displays an appropriate message in the graphics window
+   */
+   function validateInput() {
+	  // todo : check to make sure the message is between 20 and 30 characters.  If not, display an appropriate message
+   }  
 }
