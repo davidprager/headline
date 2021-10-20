@@ -29,7 +29,7 @@ function Headline() {
    let timer = undefined;
    // todo : Call the input validation function
    // todo : Set up GLabel object with an upper case version of the message, the specified font and font size
-   // todo : Add the GLabel object to the right of the Graphics window approximately centered vertically
+   // todo : Add the GLabel object to the right of the Graphics window centered vertically
    // todo : Add an event listener to detect a mouse click
 
 /* This function is called each time the interval timer ticks to update the animation */
